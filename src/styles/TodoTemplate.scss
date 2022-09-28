@@ -1,0 +1,27 @@
+.TodoTemplate{
+    width: 512px;
+    margin: 6rem auto;
+    border-radius: 4px;
+    overflow: hidden;
+    .app-title{
+        background: #22b8cf;
+        color: #fff;
+        height: 4rem;
+        font-size: 1.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .content{
+        background: #fff;
+    }
+}
+
+/*
+rem이란?
+body 기본 글씨 크기 : 16px, 1em, 100%
+body{font-size:16px}
+ div{font-size:12px}
+ div > p:first-child{font-size:1em} 부모의 크기를 상속받음 12px
+ div > p:last-child{font-size:1rem} body의 크기를 상속받음 16px
+*/
